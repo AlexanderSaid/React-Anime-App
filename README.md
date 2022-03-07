@@ -27,7 +27,7 @@ You can have a look at the final update [here](https://hopeful-volhard-d49a60.ne
 
 * Using routes to navigate the app.
 * Home route displays some Top, Streaming now, and Upcoming shows with links to discover more.
-* Discover route fetching more shows for previous categories.
+* Discover route fetching more shows with pagination.
 * Each show-card is linked to Description route.
 * Description route display detailed info over each show.
 * About page.
@@ -36,8 +36,9 @@ You can have a look at the final update [here](https://hopeful-volhard-d49a60.ne
 
 * Search-bar functionality.
 * My-lists route to store both *favorites* and *plan-to-watch* shows.
-* Pagination for *Discover* and *Search* routes.
+* Pagination for *Search* routes.
 * Fixing some responsive bugs.
+* Building a user login functionality.
 
 ###  <p align='center'>Discover code locally</p>
 
