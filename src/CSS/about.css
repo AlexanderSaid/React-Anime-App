@@ -1,0 +1,35 @@
+.about-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.about {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 700px;
+  background-color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 50px;
+  color: var(--light-color);
+  letter-spacing: 3px;
+}
+
+.about-container p {
+  width: 70%;
+  text-align: center;
+}
+.about-container a {
+  color: var(--accent-color);
+}
+
+.contact a {
+  padding: 0 2rem;
+  font-size: 1.5rem;
+}

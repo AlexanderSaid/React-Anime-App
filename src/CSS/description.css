@@ -1,0 +1,126 @@
+.description-section {
+  max-width: 100%;
+  min-height: calc(100vh - 160px);
+  background-image: linear-gradient(
+    to bottom,
+    #162555,
+    #14224d,
+    #121e45,
+    #111b3d,
+    #0f1835,
+    #0f1835,
+    #0f1835,
+    #0f1835,
+    #111b3d,
+    #121e45,
+    #14224d,
+    #162555
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.description-container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.state-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-color);
+  align-items: center;
+  width: 350px;
+  border-radius: 1rem;
+}
+
+.des-image-container {
+  width: 325px;
+  height: 425px;
+  background-size: cover;
+  border-radius: 1rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+.states {
+  width: 300px;
+  padding-bottom: 2rem;
+}
+.states p {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2rem;
+  word-wrap: break-word;
+}
+.states span {
+  font-size: 0.7rem;
+  color: #0e90a6;
+  padding-right: 1rem;
+  float: right;
+  line-height: 2rem;
+}
+.des-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 550px;
+}
+.title-container {
+  width: 100%;
+  background-color: #0e90a6;
+  color: var(--light-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.title-container h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.title-container:hover h2 {
+  text-decoration: underline;
+}
+.title-container h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.title-container a {
+  color: var(--light-color);
+}
+.title-container p {
+  float: right;
+  font-weight: 400;
+}
+.synopsis-container {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: var(--secondary-bg-color);
+  color: var(--light-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.synopsis-container p {
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-family: monospace;
+  text-indent: 2rem;
+  text-align: justify;
+}
+.trailer-container {
+  width: 480px;
+  align-self: center;
+  height: 360px;
+  margin: 3rem 0 5rem 0;
+}
+.trailer-container iframe {
+  width: 100%;
+  height: 100%;
+}
