@@ -6,6 +6,7 @@ const useAxios = (configObj) => {
   const [response, setResponse] = useState([])
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(true)
+  const [pages, setPages] = useState(0)
 
   useEffect(() => {
     const controller = new AbortController()
@@ -15,6 +16,7 @@ const useAxios = (configObj) => {
           ...requestConfig,
           signal: controller.signal,
         })
+        res.data.pagination && setPages(res.data.pagination.last_visible_page)
         setResponse(res.data.data)
       } catch (error) {
         setError(error.message)
@@ -28,6 +30,6 @@ const useAxios = (configObj) => {
     return () => controller.abort()
     //eslint-disable-next-line
   }, [url])
-  return [response, error, loading]
+  return [response, error, loading, pages]
 }
 export default useAxios
