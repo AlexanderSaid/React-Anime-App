@@ -6,7 +6,6 @@
 
 ## Built with
 
----
 API
 
 * [Jikan](https://docs.api.jikan.moe/) Api v4
@@ -19,8 +18,6 @@ Libraries/Technologies
 * nodejs
 
 ## Features
-
----
 
 > Completed
 
@@ -40,13 +37,9 @@ Libraries/Technologies
 
 ## Demo
 
----
-
 You can have a look to the final update [here](https://hopeful-volhard-d49a60.netlify.app)
 
 ### Discover code locally
-
----
 
 ```bash
 # Clone this repo
