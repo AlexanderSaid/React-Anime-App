@@ -1,23 +1,27 @@
-# Anime Search - React Single-Page-App
+# <p align='center'>Anime Search - React Single-Page-App</p>
 
 ---
 |This app is an learning assignment related to [React module](https://github.com/HackYourFuture/React) of [HackYourFuture](https://hackyourfuture.net) web-development program|
 |:---:|
 
-## Built with
+##  <p align='center'>Demo</p></p>
 
-API
+You can have a look at the final update [here](https://hopeful-volhard-d49a60.netlify.app)
+
+##  <p align='center'>Built with</p>
+
+>API
 
 * [Jikan](https://docs.api.jikan.moe/) Api v4
 
-Libraries/Technologies
+>Libraries/Technologies
 
 * React UI library
 * react-router-dom v6
 * axios
 * nodejs
 
-## Features
+##  <p align='center'>Features</p>
 
 > Completed
 
@@ -35,11 +39,7 @@ Libraries/Technologies
 * Pagination for *Discover* and *Search* routes.
 * Fixing some responsive bugs.
 
-## Demo
-
-You can have a look to the final update [here](https://hopeful-volhard-d49a60.netlify.app)
-
-### Discover code locally
+###  <p align='center'>Discover code locally</p>
 
 ```bash
 # Clone this repo
