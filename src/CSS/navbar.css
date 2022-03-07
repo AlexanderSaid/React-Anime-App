@@ -1,0 +1,44 @@
+.nav-container,
+.left-nav,
+.nav-links,
+.search-bar,
+.search-btn {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1440px;
+  justify-content: space-between;
+  margin: 0 3rem;
+  gap: 2rem;
+}
+
+.nav-links {
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.nav-link {
+  font-weight: bold;
+  height: 80px;
+  line-height: 80px;
+  color: var(--light-color);
+  letter-spacing: 2px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 3rem;
+  letter-spacing: 2px;
+}
+.nav-links .nav-link {
+  padding: 0 10px;
+  transition: all 200ms ease-in-out;
+}
+.nav-links .nav-link:hover,
+.nav-links .nav-link:target {
+  background-color: var(--dark-color);
+}

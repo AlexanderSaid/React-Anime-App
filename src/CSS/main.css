@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --dark-color: #0d142b;
+  --light-color: #f8f9f9;
+  --accent-color: #3dc8c9;
+  --main-bg-color: #162555;
+  --secondary-bg-color: #c43d6f;
+  --button: #f4b966;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  width: calc(100vw - (100vw - 100%));
+}
+main {
+  background-image: linear-gradient(
+    to bottom,
+    #162555,
+    #14224d,
+    #121e45,
+    #111b3d,
+    #0f1835,
+    #0f1835,
+    #0f1835,
+    #0f1835,
+    #111b3d,
+    #121e45,
+    #14224d,
+    #162555
+  );
+}
+a {
+  text-decoration: none;
+}
+
+::placeholder {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--light-color) var(--dark-color);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--main-bg-color);
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--light-color);
+  border-radius: 10px;
+}
+.under-dev {
+  text-align: center;
+  padding: 10rem;
+  font-weight: bold;
+  font-size: 3rem;
+  color: var(--light-color);
+}
+.loading {
+  color: var(--light-color);
+}
+.error {
+  color: var(--button);
+}

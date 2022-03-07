@@ -1,0 +1,43 @@
+.search-bar {
+  justify-content: flex-end;
+  flex: 1;
+  border-radius: 30px;
+  max-width: 400px;
+  transition: all ease-in-out 200ms;
+}
+.search-bar:hover,
+.search-bar:focus-within {
+  background-color: var(--dark-color);
+  color: var(--button);
+}
+
+.search-input {
+  height: 60px;
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  padding: 0 0 0 2rem;
+  color: var(--button);
+  font-size: 1.2rem;
+}
+.search-input::-webkit-search-cancel-button {
+  appearance: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: var(--button);
+  opacity: 0.8;
+  border-radius: 50%;
+  content: url(../outline_close_black_24dp.png);
+  color: var(--light-color);
+}
+.search-input:focus {
+  outline: none;
+}
+.search-btn {
+  font-size: 1.3rem;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+}
