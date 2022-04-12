@@ -28,7 +28,7 @@
   background-color: var(--button);
   opacity: 0.8;
   border-radius: 50%;
-  content: url(../assists/outline_close_black_24dp.png);
+  content: url(../assets/outline_close_black_24dp.png);
   color: var(--light-color);
 }
 .search-input:focus {
