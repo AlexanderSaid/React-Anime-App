@@ -57,7 +57,9 @@
   );
 }
 .discover-message {
-  margin-top: 10rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 5rem;
   color: var(--light-color);
   letter-spacing: 3px;
 }
