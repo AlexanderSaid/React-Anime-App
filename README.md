@@ -6,7 +6,7 @@
 
 ##  <p align='center'>Demo</p></p>
 
-You can have a look at the final update [here](https://hopeful-volhard-d49a60.netlify.app)
+You can have a look at the final update [here](https://bit.ly/3K7YgQ5)
 
 ##  <p align='center'>Built with</p>
 
