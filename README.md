@@ -6,6 +6,8 @@
 
 ##  <p align='center'>Demo</p></p>
 
+<p align="center"><img src="public/demo/Ani4me-react.gif" width='600' height='600'></p>
+
 You can have a look at the final update [here](https://bit.ly/3K7YgQ5)
 
 ##  <p align='center'>Built with</p>
