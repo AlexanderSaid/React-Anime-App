@@ -6,7 +6,8 @@
   transition: all ease-in-out 200ms;
 }
 .search-bar:hover,
-.search-bar:focus-within {
+.search-bar:focus-within,
+.full {
   background-color: var(--dark-color);
   color: var(--button);
 }
@@ -40,4 +41,8 @@
   height: 60px;
   width: 60px;
   justify-content: center;
+}
+.search-icon {
+  color: var(--button);
+  opacity: 0.8;
 }

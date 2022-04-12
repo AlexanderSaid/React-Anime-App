@@ -1,13 +1,13 @@
-import useAxios from "../../hooks/useAxios"
-import axios from "../../apis/jikanAnime"
-import Heading from "./Heading"
-import ShowCard from "./ShowCard"
+import useAxios from "../../hooks/useAxios";
+import axios from "../../apis/jikanAnime";
+import Heading from "./Heading";
+import ShowCard from "../ShowCard";
 const ShowsBox = ({ props }) => {
   const [shows, error, loading] = useAxios({
     axiosInstance: axios,
     method: "GET",
     url: props.limit,
-  })
+  });
 
   return (
     <section id='shows-box' className='shows-box'>
@@ -26,6 +26,6 @@ const ShowsBox = ({ props }) => {
         )}
       </div>
     </section>
-  )
-}
-export default ShowsBox
+  );
+};
+export default ShowsBox;

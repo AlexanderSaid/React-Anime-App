@@ -1,8 +1,8 @@
-import ReactPaginate from "react-paginate"
+import ReactPaginate from "react-paginate";
 const Paginate = ({ setCurrentPage, pages }) => {
   const handlePageClick = (data) => {
-    setCurrentPage(data.selected + 1)
-  }
+    setCurrentPage(data.selected + 1);
+  };
   return (
     <ReactPaginate
       previousLabel={"<<"}
@@ -18,6 +18,6 @@ const Paginate = ({ setCurrentPage, pages }) => {
       activeClassName={"active"}
       activeLinkClassName={"active"}
     />
-  )
-}
-export default Paginate
+  );
+};
+export default Paginate;

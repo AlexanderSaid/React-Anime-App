@@ -1,9 +1,10 @@
-import { Routes, Route } from "react-router-dom"
-import Layout from "./components/Layout/Layout"
-import About from "./pages/About"
-import AnimeDescription from "./pages/AnimeDescription"
-import Discover from "./pages/Discover"
-import Home from "./pages/Home"
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import About from "./pages/About";
+import AnimeDescription from "./pages/AnimeDescription";
+import Discover from "./pages/Discover";
+import Home from "./pages/Home";
+import SearchResults from "./pages/SearchResults";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         />
         <Route path='about' element={<About />} />
         <Route path='anime/:id' element={<AnimeDescription />} />
-
+        <Route path='anime' element={<SearchResults />} />
         <Route path='discover/*' element={<Discover />}>
           <Route
             index
@@ -27,7 +28,7 @@ function App() {
         </Route>
       </Route>
     </Routes>
-  )
+  );
 }
 
-export default App
+export default App;

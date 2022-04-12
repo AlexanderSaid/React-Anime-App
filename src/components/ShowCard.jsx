@@ -1,5 +1,5 @@
-import "../../CSS/shows-sections.css"
-import { Link } from "react-router-dom"
+import "../CSS/shows-sections.css";
+import { Link } from "react-router-dom";
 const ShowCard = ({ show }) => {
   return (
     <Link to={`/anime/${show.mal_id}`} className='show-card-container'>
@@ -22,6 +22,6 @@ const ShowCard = ({ show }) => {
         </div>
       </div>
     </Link>
-  )
-}
-export default ShowCard
+  );
+};
+export default ShowCard;

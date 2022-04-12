@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom"
-import "../../CSS/navbar.css"
-import SearchBar from "./SearchBar"
-import PathContext from "../../context/PathContext"
-import { useContext } from "react"
+import { Link } from "react-router-dom";
+import "../../CSS/navbar.css";
+import SearchBar from "./SearchBar";
+import PathContext from "../../context/PathContext";
+import { useContext } from "react";
 const Navbar = () => {
-  const { handleClick } = useContext(PathContext)
+  const { handleClick } = useContext(PathContext);
   return (
     <div className='nav-container'>
       <div className='left-nav'>
@@ -29,10 +29,10 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className='search-bar'>
+      <div>
         <SearchBar />
       </div>
     </div>
-  )
-}
-export default Navbar
+  );
+};
+export default Navbar;

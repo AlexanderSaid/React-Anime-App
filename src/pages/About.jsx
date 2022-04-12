@@ -1,4 +1,4 @@
-import "../CSS/about.css"
+import "../CSS/about.css";
 const About = () => {
   return (
     <section className='about-container'>
@@ -7,7 +7,7 @@ const About = () => {
         <h2>I'm Alexander</h2>
         <p>
           And I've built this app as part of learning &nbsp;
-          <strong>React</strong>&nbsp; following the &nbsp;
+          <strong>React</strong>&nbsp; following &nbsp;
           <a
             href='http://hackyourfuture.net'
             target='_blank'
@@ -35,6 +35,6 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
-export default About
+  );
+};
+export default About;

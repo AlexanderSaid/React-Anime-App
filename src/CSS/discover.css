@@ -41,6 +41,7 @@
 .discover-link:hover {
   background-color: #c67424;
 }
+
 .discover-container .ruler {
   margin-bottom: 1rem;
   width: 60%;
@@ -67,6 +68,8 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  flex-grow: 1;
+
 }
 
 #output-box {
@@ -79,6 +82,7 @@
   margin: 3rem 0;
   border-radius: 20px;
   background-color: var(--secondary-bg-color);
+  box-shadow: 0 0 5px var(--light-color);
 }
 
 #output-box .shows-list {
@@ -91,7 +95,6 @@
 #output-box .shows-list-item {
   width: 250px;
   min-height: 500px;
-  padding-bottom: 2rem;
 }
 #output-box .show-card-container {
   filter: drop-shadow(0 0 10px var(--main-bg-color));
@@ -108,4 +111,18 @@
 #output-box .info-container h4 {
   font-size: 1rem;
   color: var(--main-bg-color);
+}
+
+.no-match {
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0.8;
+  text-align: center;
+  padding: 3rem 2rem;
+  color: var(--light-color);
+  text-shadow: 2px 2px 5px var(--dark-color);
+}
+
+.container {
+  padding: 0 2rem;
 }

@@ -82,3 +82,18 @@ ul {
 .error {
   color: var(--button);
 }
+.message {
+  color: var(--light-color);
+  padding: 4rem;
+  font-size: 1.3rem;
+}
+.results-message{
+  color: var(--light-color);
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.results-message span {
+  color: var(--button);
+  padding-left: 2rem;
+}

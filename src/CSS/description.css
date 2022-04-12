@@ -38,6 +38,7 @@
   align-items: center;
   width: 350px;
   border-radius: 1rem;
+  filter: drop-shadow(0 0 5px var(--light-color))
 }
 
 .des-image-container {

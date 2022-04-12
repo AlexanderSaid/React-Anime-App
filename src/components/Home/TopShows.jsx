@@ -2,7 +2,7 @@ import useAxios from "../../hooks/useAxios"
 import axios from "../../apis/jikanAnime"
 
 import Heading from "./Heading"
-import ShowCard from "./ShowCard"
+import ShowCard from "../ShowCard"
 
 const TopShows = ({ props }) => {
   const [shows, error, loading] = useAxios({
